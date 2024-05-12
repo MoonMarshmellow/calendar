@@ -6,7 +6,7 @@ import CalendarApp from './components/calendarApp';
 import './calendarStyles/styles.scss'
 
 function App() {
-  const [user, loading, error] = useAuthState(auth)
+  const [user] = useAuthState(auth)
   return (
     <>
       {user ? <CalendarApp /> : <User />}
