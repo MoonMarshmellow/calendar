@@ -3,6 +3,8 @@
 
 Programmed using React.js with Typescript.
 
+### [Live Demo](https://marioscalendar.vercel.app/)
+
 ### Instructions on how to run locally:
 1. Make sure you have [Node.js](https://nodejs.org/en) installed.
 2. Run `npm i` to install all dependencies.
