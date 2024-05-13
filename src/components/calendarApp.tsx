@@ -100,7 +100,7 @@ const calendarApp:React.FC<calendarProps> = () => {
     }
 
     const deleteEvent = async (event: customEvent) => {
-        console.log(event)
+        // console.log(event)
         const index = events.findIndex(item => item.id === event.id);
         if (index !== -1) {
             try{
